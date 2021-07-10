@@ -1,0 +1,25 @@
+.flex-container{
+  display: flex;
+  /*flex-direction: tipos de valores row, row-reverse, column, column-reverse  */
+  /* flex-direction: row-reverse;  */
+  /* justify-content: Tipo de valores flex-start, center, flex-end, space-around, space-between */
+  /* justify-content: space-around ; */
+  /*align-items: Tipo de valores flex-start center flex-end stretch  descontinuado en alguno navegadores baseline  */
+  /* align-items: ;      wrap, nowrap, wrap-reverse */
+  flex-wrap: wrap;
+  /* align-content: space-between, space-around, flex-start, center, flex-end */
+  align-content: flex-start;
+  height: 600px;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+background-color: #f1f1f1;
+width: 100px; 
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+
+
